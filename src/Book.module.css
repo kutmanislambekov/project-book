@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.minp{
+    width: 400px;
+    height: 34px;
+    transition: 0.3s;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.p11{
+    text-align: center;
+    color: black;
+}
+.inputWrap{
+    margin: auto;
+    width: fit-content;
+    
+}
+.header{
+    background-image: url(https://w0.peakpx.com/wallpaper/130/296/HD-wallpaper-books-aesthetic-art-book-dark-fiction-love-shelf.jpg);
+}
+.selecct{
+    margin-left: 500px;
+    display: flex;
+}
+.selecct1{
+    margin-left: 50px;
+    height: 30px;
+    border-radius: 20px;
+}
+.selecct2{
+    margin-left: 50px;
+    height: 30px;
+    border-radius: 20px;
+}
+h4{
+    color: rgb(188, 185, 185) ;
+    transform: translateX(53px);
+    padding: 8px;
+    letter-spacing: 0.5px;
+
+}
+.mmain{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bbok{
+    background-color:rgb(237, 234, 234);
+    width:342px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    padding: 40px;
+    margin-left: 30px;
+}
+.btnload {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   .btnload::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 500ms
+   }
+   
+   .btnload:hover {
+    color: #e8e8e8;
+   }
+   
+   .btnload:hover::before {
+    width: 100%;
+   }
+
